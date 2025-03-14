@@ -1,6 +1,7 @@
+![image](https://github.com/user-attachments/assets/a8b021ae-1295-4f7c-b095-ebada1b6b6f7)
+
 # VisionAI: AI-Powered Eye Disease Analysis
 
-![VisionAI Banner](https://via.placeholder.com/1200x400?text=VisionAI+Banner)
 
 ## 🌟 Overview
 VisionAI is an AI-powered system designed for **eye disease detection, diagnosis, and clinical decision support**. It leverages deep learning techniques to analyze eye images and identify potential diseases with high accuracy. The system aims to assist healthcare professionals in early detection and effective treatment planning.
@@ -76,3 +77,7 @@ For queries, reach out us via open an issue in the repository.
 
 ---
 ⭐ **If you find this project useful, please consider starring the repo!** ⭐
+
+
+
+
