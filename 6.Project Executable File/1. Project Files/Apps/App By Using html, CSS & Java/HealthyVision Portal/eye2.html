@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisionAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">VisionAI</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Contact</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>VisionAI: Your AI Eye Health Assistant</h1>
+            <p>Scan Your Eyes. Detect Early. Stay Healthy - Let VisionAI analyze your eye health in seconds, helping you catch potential issues before they affect your vision.</p>
+            <button id="upload-btn">Upload Image</button>
+            <input type="file" id="file-input" style="display: none;">
+        </div>
+        <div class="front-image">
+          <img src="image/eyeCheck.avif" class="image">
+        </div>
+    </section>
+
+    <section class="result" id="result-section" style="display: none;">
+        <div class="container">
+            <div class="submitted">
+                <div class="file-name">Eye_Image.jpg</div>
+                <button class="submitted-btn">Submitted</button>
+            </div>
+            <div class="your-result">
+                <h2>Your Result</h2>
+                <div class="diagnosis">
+                    <div class="disease">Cataract Diseases</div>
+                    <div class="percentage">97.9%</div>
+                </div>
+                <p class="accuracy">Accuracy: <br> A cataract is a cloudy area in the lens of the eye, which can cause vision to become blurry and lead to blindness.</p>
+                <p class="read-more">Read more...</p>
+            </div>
+            <div class="your-image">
+                <h2>Your Image</h2>
+                <div class="image-preview">
+                    <img id="preview" src="" alt="Uploaded Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
